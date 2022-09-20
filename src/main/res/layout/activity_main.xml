@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Button_Añadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="788dp"
+        android:backgroundTint="#FF9800"
+        android:hint="Añadir"
+        android:textColor="#F44336" />
+
+
+    <EditText
+        android:id="@+id/List_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Agregar nota" />
+
+    <ListView
+        android:id="@+id/Date_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-235dp"
+        android:background="#FF9800"
+        android:cacheColorHint="#E91E63" />
+
+</RelativeLayout>
